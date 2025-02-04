@@ -43,25 +43,31 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   padding: 2rem;
+  gap: 1rem; /* Menambahkan jarak antar modul */
 }
 
 .module-box {
   background-color: white;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 1rem;
   padding: 1.5rem;
   width: 300px;
   text-align: left;
+  transition: transform 0.2s ease-in-out;
+}
+
+.module-box:hover {
+  transform: translateY(-5px); /* Efek hover */
 }
 
 .module-box h2 {
   margin-top: 0;
-  color: #333;
+  color: #6200ea; /* Warna ungu untuk judul */
 }
 
 .module-box p {
   color: #666;
+  line-height: 1.6;
 }
 .install-button {
   background-color: #6200ea;
