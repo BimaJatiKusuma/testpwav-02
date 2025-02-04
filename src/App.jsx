@@ -42,7 +42,7 @@ function App() {
       </nav>
 
       <header>
-        <h1>Welcome to My Learning PWA</h1>
+        <h1>Selamat Datand di Website</h1>
         {deferredPrompt && (
           <button onClick={handleInstallClick} className="install-button">
             Install App
